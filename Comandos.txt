@@ -1,0 +1,5 @@
+-- PARA CRIAR PROJETO WEB .NET NO VSCODE
+dotnet new mvc -n PrimeiraApp
+
+-- PARA RODAR PROJETO
+dotnet run
