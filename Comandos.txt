@@ -3,3 +3,11 @@ dotnet new mvc -n PrimeiraApp
 
 -- PARA RODAR PROJETO
 dotnet run
+
+-- PARA USAR LOCALDB
+ "ConnectionStrings": {
+   "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=PrimeiraAppDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+ }
+
+-- PARA ACESSAR LOCALDB
+Abrir Visual Studio ir em "Pesquisador de Objetos do SQL Server"
