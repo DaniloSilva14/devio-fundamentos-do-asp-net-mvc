@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace PrimeiraApp.Views.Shared
+namespace PrimeiraApp.Views.Alunos
 {
-    public class _MenuLayoutModel : PageModel
+    public class EditModel : PageModel
     {
         public void OnGet()
         {

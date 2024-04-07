@@ -23,6 +23,7 @@
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "applicationUrl": "https://localhost:7072;http://localhost:5125",
+      "launchUrl": "alunos",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
