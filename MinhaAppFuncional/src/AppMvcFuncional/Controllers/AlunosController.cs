@@ -2,9 +2,11 @@
 using Microsoft.EntityFrameworkCore;
 using AppMvcFuncional.Data;
 using AppMvcFuncional.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AppMvcFuncional.Controllers
 {
+    [Authorize]
     [Route("meus-alunos")]
     public class AlunosController : Controller
     {
@@ -15,6 +17,7 @@ namespace AppMvcFuncional.Controllers
             _context = context;
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             ViewBag.Sucesso = "Listagem bem sucedida!";
